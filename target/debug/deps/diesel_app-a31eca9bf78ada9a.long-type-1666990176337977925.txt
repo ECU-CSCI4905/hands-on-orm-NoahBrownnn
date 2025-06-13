@@ -1,0 +1,1 @@
+i32: FromSqlRow<diesel::sql_types::Nullable<diesel::sql_types::Integer>, Sqlite>
