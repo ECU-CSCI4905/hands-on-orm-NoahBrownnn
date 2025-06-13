@@ -1,5 +1,8 @@
 pub mod schema;
 pub mod models;
+pub mod operations;
+
+pub use operations::CrudOperations;
 
 use diesel::prelude::*;
 use diesel::sqlite::SqliteConnection;
